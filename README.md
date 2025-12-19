@@ -1,16 +1,16 @@
-# Loan Default Prediction
+# Loan Default Prediction 🚀
 
 ![Banner](outputs/DecisionTree_confusion_matrix.png)
 
 **Predicting Loan Defaults using Decision Tree & XGBoost**
 
-This project predicts whether a loan applicant will default based on historical financial and demographic data. It demonstrates an **end-to-end machine learning workflow**, from data preprocessing to model evaluation and visualizations.
+This project predicts whether a loan applicant will default based on historical financial and demographic data. It demonstrates an **end-to-end ML workflow**, from data preprocessing to model evaluation and visualizations.
 
 ---
 
-## 📊 Dataset
+## 📊 Dataset Overview
 
-The dataset contains the following features:
+The dataset includes these features:
 
 ID, year, loan_limit, Gender, approv_in_adv, loan_type, loan_purpose, Credit_Worthiness,
 open_credit, business_or_commercial, loan_amount, rate_of_interest, Interest_rate_spread,
@@ -29,11 +29,11 @@ Copy code
 
 loan-default-prediction/
 │
-├─ main.py # Entry point: preprocessing, training, evaluation
+├─ main.py # Main entry point
 ├─ requirements.txt # Python dependencies
 ├─ data/
 │ └─ loan_data.csv # Input dataset
-├─ outputs/ # Generated plots, CSVs, and images
+├─ outputs/ # Generated plots, CSVs, images
 └─ src/
 ├─ train_models.py # Model training functions
 └─ evaluate_models.py # Model evaluation and visualization
@@ -45,59 +45,43 @@ Copy code
 
 ## ⚙ How to Run
 
-1. Clone the repository:
-
 ```bash
-git clone https://github.com/irfana-aslam/loan-default-prediction.git
+git clone https://github.com/IrfanaAslam/loan-default-prediction.git
 cd loan-default-prediction
-Install dependencies:
-
-bash
-Copy code
 pip install -r requirements.txt
-Run the project:
-
-bash
-Copy code
 python main.py
-All outputs (plots, CSVs, images) will be saved in the outputs/ folder.
+All outputs will be saved in the outputs/ folder.
 
-📈 Evaluation & Visualizations
-1. Confusion Matrix
-Decision Tree:
+📈 Model Evaluation & Visualizations
+Confusion Matrices
+Decision Tree
 
+XGBoost
 
-XGBoost:
+Confusion matrices show true vs predicted loan status.
 
+ROC Curves
+Decision Tree
 
-Confusion matrices show the true vs. predicted loan status.
+XGBoost
 
-2. ROC Curve
-Decision Tree:
+ROC curves visualize true positive rate vs false positive rate. Higher AUC = better performance.
 
+Feature Importance
+Decision Tree Top 20 Features
 
-XGBoost:
+XGBoost Top 20 Features
 
-
-ROC curves visualize the trade-off between true positive rate and false positive rate. Higher AUC = better model.
-
-3. Feature Importance
-Decision Tree Top 20 Features:
-
-
-XGBoost Top 20 Features:
-
-
-Feature importance plots highlight the most influential features in predicting loan defaults. CSV files are also saved for further analysis.
+Shows most influential features. CSV files are saved for further analysis.
 
 💡 Key Highlights
 End-to-end ML workflow: preprocessing → training → evaluation → visualization
 
-Handles categorical variables and sanitizes column names for XGBoost
+Handles categorical variables & cleans feature names for XGBoost
 
-Produces outputs for reporting: CSV + PNG plots
+Outputs include CSV + PNG plots
 
-Portfolio-ready: demonstrates ML skills and data visualization
+Portfolio-ready: demonstrates ML & data visualization skills
 
 🛠 Tech Stack
 Python 3.10
@@ -108,17 +92,17 @@ scikit-learn, XGBoost
 
 Matplotlib, Seaborn
 
-🚀 Next Steps / Extensions
+🚀 Next Steps
 Hyperparameter tuning for better performance
 
-Deploy the model as a REST API using Flask or FastAPI
+Deploy model as REST API using Flask/ FastAPI
 
-Interactive dashboards for model monitoring
+Interactive dashboards for monitoring
 
-Add more algorithms like Random Forest or LightGBM
+Add more algorithms: Random Forest, LightGBM
 
 👩‍💻 About Me
-Hi! I am Irfana Aslam, a Python developer and machine learning enthusiast. I love building projects that combine data analysis, machine learning, and visualization. I create portfolio-ready projects that showcase real-world skills.
+Hi! I’m Irfana Aslam, a Python developer and ML enthusiast. I build projects that combine data analysis, ML, and visualization. I focus on portfolio-ready projects that showcase real-world skills.
 
 📫 Contact Me
 Email: irfanaaslam69@gmail.com
@@ -130,23 +114,20 @@ LinkedIn: linkedin.com/in/irfana-aslam
 GitHub: github.com/irfana-aslam
 
 🎯 References
-XGBoost Documentation
+XGBoost Docs
 
-scikit-learn Documentation
+scikit-learn Docs
 
-Pandas Documentation
+Pandas Docs
 
 📂 Outputs
-All outputs (generated after running main.py) are saved in the outputs/ folder:
-
 Copy code
-outputs/
-├─ DecisionTree_confusion_matrix.png
-├─ DecisionTree_ROC_curve.png
-├─ DecisionTree_feature_importance.png
-├─ DecisionTree_feature_importance.csv
-├─ XGBoost_confusion_matrix.png
-├─ XGBoost_ROC_curve.png
-├─ XGBoost_feature_importance.png
-├─ XGBoost_feature_importance.csv
-├─ project_banner.png"# loan-default-prediction" 
+outputs/DecisionTree_confusion_matrix.png
+outputs/DecisionTree_ROC_curve.png
+outputs/DecisionTree_feature_importance.png
+outputs/DecisionTree_feature_importance.csv
+outputs/XGBoost_confusion_matrix.png
+outputs/XGBoost_ROC_curve.png
+outputs/XGBoost_feature_importance.png
+outputs/XGBoost_feature_importance.csv
+outputs/project_banner.png
