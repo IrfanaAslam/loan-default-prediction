@@ -7,8 +7,19 @@
 This project predicts whether a loan applicant will default based on historical financial and demographic data. It demonstrates an **end-to-end ML workflow**, from data preprocessing to model evaluation and visualizations.
 
 ---
+**👩‍💻 About Me**
+Hi! I’m Irfana Aslam, a Python developer and ML enthusiast. I build projects that combine data analysis, ML, and visualization. I focus on portfolio-ready projects that showcase real-world skills.
 
-## 📊 Dataset Overview
+**📫 Contact Me**
+Email: irfanaaslam69@gmail.com
+
+Alternate Email: irfanaaslam0786@gmail.com
+
+LinkedIn: linkedin.com/in/irfana-aslam
+
+GitHub: github.com/irfana-aslam
+
+**📊 Dataset Overview**
 
 The dataset includes these features:
 
@@ -18,14 +29,12 @@ Upfront_charges, term, Neg_ammortization, interest_only, lump_sum_payment, prope
 construction_type, occupancy_type, Secured_by, total_units, income, credit_type, Credit_Score,
 co-applicant_credit_type, age, submission_of_application, LTV, Region, Security_Type, Status, dtir1
 
-yaml
-Copy code
 
-- **Target Column:** `Status` (loan approved / default)
+**Target Column:** `Status` (loan approved / default)
 
 ---
 
-## 🗂 Project Structure
+**🗂 Project Structure**
 
 loan-default-prediction/
 │
@@ -38,21 +47,15 @@ loan-default-prediction/
 ├─ train_models.py # Model training functions
 └─ evaluate_models.py # Model evaluation and visualization
 
-yaml
-Copy code
 
----
-
-## ⚙ How to Run
-
-```bash
+**⚙ How to Run**
 git clone https://github.com/IrfanaAslam/loan-default-prediction.git
 cd loan-default-prediction
 pip install -r requirements.txt
 python main.py
 All outputs will be saved in the outputs/ folder.
 
-📈 Model Evaluation & Visualizations
+**📈 Model Evaluation & Visualizations**
 Confusion Matrices
 Decision Tree
 
@@ -74,7 +77,7 @@ XGBoost Top 20 Features
 
 Shows most influential features. CSV files are saved for further analysis.
 
-💡 Key Highlights
+**💡 Key Highlights**
 End-to-end ML workflow: preprocessing → training → evaluation → visualization
 
 Handles categorical variables & cleans feature names for XGBoost
@@ -83,7 +86,7 @@ Outputs include CSV + PNG plots
 
 Portfolio-ready: demonstrates ML & data visualization skills
 
-🛠 Tech Stack
+**🛠 Tech Stack**
 Python 3.10
 
 Pandas, NumPy
@@ -92,7 +95,7 @@ scikit-learn, XGBoost
 
 Matplotlib, Seaborn
 
-🚀 Next Steps
+**🚀 Next Steps**
 Hyperparameter tuning for better performance
 
 Deploy model as REST API using Flask/ FastAPI
@@ -101,34 +104,31 @@ Interactive dashboards for monitoring
 
 Add more algorithms: Random Forest, LightGBM
 
-👩‍💻 About Me
-Hi! I’m Irfana Aslam, a Python developer and ML enthusiast. I build projects that combine data analysis, ML, and visualization. I focus on portfolio-ready projects that showcase real-world skills.
-
-📫 Contact Me
-Email: irfanaaslam69@gmail.com
-
-Alternate Email: irfanaaslam0786@gmail.com
-
-LinkedIn: linkedin.com/in/irfana-aslam
-
-GitHub: github.com/irfana-aslam
-
-🎯 References
+**🎯 References**
 XGBoost Docs
 
 scikit-learn Docs
 
 Pandas Docs
 
-📂 Outputs
+**📂 Outputs**
 Copy code
 outputs/
-├─ DecisionTree_confusion_matrix.png
+![Banner](outputs/DecisionTree_confusion_matrix.png)
+├─ outputs/DecisionTree_confusion_matrix.png
+![Banner](DecisionTree_ROC_curve.png)
 ├─ DecisionTree_ROC_curve.png
+![Banner](outputs/DecisionTree_feature_importance.png)
 ├─ DecisionTree_feature_importance.png
+![Banner](outputs/DecisionTree_feature_importance.csv)
 ├─ DecisionTree_feature_importance.csv
+![Banner](outputs/XGBoost_confusion_matrix.png)
 ├─ XGBoost_confusion_matrix.png
+![Banner](outputs/XGBoost_ROC_curve.png)
 ├─ XGBoost_ROC_curve.png
+![Banner](outputs/XGBoost_feature_importance.png)
 ├─ XGBoost_feature_importance.png
+![Banner](outputs/XGBoost_feature_importance.csv)
 ├─ XGBoost_feature_importance.csv
+![Banner](outputs/project_banner.png)
 ├─ project_banner.png
