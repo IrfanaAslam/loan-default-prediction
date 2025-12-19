@@ -114,21 +114,18 @@ Pandas Docs
 **📂 Outputs**
 Copy code
 outputs/
-![Banner](outputs/DecisionTree_confusion_matrix.png)
 ├─ outputs/DecisionTree_confusion_matrix.png
-![Banner](DecisionTree_ROC_curve.png)
 ├─ DecisionTree_ROC_curve.png
-![Banner](outputs/DecisionTree_feature_importance.png)
 ├─ DecisionTree_feature_importance.png
-![Banner](outputs/DecisionTree_feature_importance.csv)
 ├─ DecisionTree_feature_importance.csv
-![Banner](outputs/XGBoost_confusion_matrix.png)
 ├─ XGBoost_confusion_matrix.png
-![Banner](outputs/XGBoost_ROC_curve.png)
 ├─ XGBoost_ROC_curve.png
-![Banner](outputs/XGBoost_feature_importance.png)
 ├─ XGBoost_feature_importance.png
-![Banner](outputs/XGBoost_feature_importance.csv)
 ├─ XGBoost_feature_importance.csv
-![Banner](outputs/project_banner.png)
-├─ project_banner.png
+![Banner](outputs/DecisionTree_confusion_matrix.png)
+![Banner](DecisionTree_ROC_curve.png)
+![Banner](outputs/DecisionTree_feature_importance.png)
+![Banner](outputs/XGBoost_confusion_matrix.png)
+![Banner](outputs/XGBoost_ROC_curve.png)
+![Banner](outputs/XGBoost_feature_importance.png)
+├─ project_banner.png![Banner](outputs/project_banner.png)
