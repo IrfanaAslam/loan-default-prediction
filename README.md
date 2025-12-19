@@ -122,12 +122,13 @@ Pandas Docs
 
 📂 Outputs
 Copy code
-outputs/DecisionTree_confusion_matrix.png
-outputs/DecisionTree_ROC_curve.png
-outputs/DecisionTree_feature_importance.png
-outputs/DecisionTree_feature_importance.csv
-outputs/XGBoost_confusion_matrix.png
-outputs/XGBoost_ROC_curve.png
-outputs/XGBoost_feature_importance.png
-outputs/XGBoost_feature_importance.csv
-outputs/project_banner.png
+outputs/
+├─ DecisionTree_confusion_matrix.png
+├─ DecisionTree_ROC_curve.png
+├─ DecisionTree_feature_importance.png
+├─ DecisionTree_feature_importance.csv
+├─ XGBoost_confusion_matrix.png
+├─ XGBoost_ROC_curve.png
+├─ XGBoost_feature_importance.png
+├─ XGBoost_feature_importance.csv
+├─ project_banner.png
